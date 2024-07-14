@@ -1,0 +1,38 @@
+.subHeading {
+    color: #c4c5c5;
+    margin-bottom: 20px;
+}
+.avatarContainer{
+    margin: 0 auto;
+}
+
+.avatarWrapper {
+    width: 125px;
+    height: 125px;
+    border: 6px solid #0077ff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatarImage {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+
+.avatarInput {
+    display: none;
+}
+
+.avatarLabel {
+    color: #0077ff;
+    margin: 30px -50px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+.avatarLabel:hover{
+    color:purple;
+}

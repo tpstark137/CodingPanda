@@ -1,0 +1,51 @@
+.enter-link{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+    font-size: 18px;
+}
+.switch-editor{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.switch-editor .linker{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.switch-editor button{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.enterLink-label{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.tab-root {
+    height: calc(100vh-20px);
+    background-color: initial;
+    display: flex;
+    flex-direction: column;
+  }
+.btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn-submit{
+    background-color: #006241;
+    color: white;
+    width: 200px;
+    margin-top: 15px;
+}
+  

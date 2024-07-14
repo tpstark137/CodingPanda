@@ -1,0 +1,36 @@
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.brand{
+    font-weight: bold;
+    font-size: 25px;
+}
+.brand span{
+    color: red;
+}
+.user-avatar{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0077ff;
+    margin: 0 20px;
+    margin-right: 10px;
+}
+.user-detail{
+    display: flex;
+    align-items: center;
+}
+.logout-button{
+    margin-left: 25px;
+    background-color: #0077ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid blue;
+}
